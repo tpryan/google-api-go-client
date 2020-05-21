@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	htransport "google.golang.org/api/transport/http"
+	htransport "github.com/tpryan/google-api-go-client/transport/http"
 )
 
 const (

@@ -14,9 +14,9 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 
-	"google.golang.org/api/internal"
-	"google.golang.org/api/option"
-	htransport "google.golang.org/api/transport/http"
+	internal "github.com/tpryan/google-api-go-client/internal"
+	option "github.com/tpryan/google-api-go-client/option"
+	htransport "github.com/tpryan/google-api-go-client/transport/http"
 )
 
 // ClientOption is aliased so relevant options are easily found in the docs.
